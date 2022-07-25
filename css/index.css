@@ -1,0 +1,165 @@
+*, body{
+    font-family: 'Fredoka' , Poppins, serif;
+}
+
+nav, .nav-items, .intro-section{
+    display: flex;
+    margin-left: 70px;
+}
+
+.nav-item{
+    text-align: center;
+    padding-left: 120px;
+    padding-top: 18px;
+}
+
+nav > img{
+    padding-top: 30px;
+    height: 35px;
+}
+
+img[alt="actions"]{
+    position: absolute;
+    right: 30px;
+}
+
+h3{
+    font-size: 40px;
+    font-weight:lighter;
+}
+
+img[alt="circles"]{
+    height: 40px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: -30px;
+}
+
+.sub-headlines{
+    padding-left: 50px;
+    margin-top: -25px;
+}
+
+.sub-headline{
+    padding-top: 3px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+img[alt="plus"]{
+    background-color: #FE5E35;
+    border: 4px solid #FE5E35;
+    border-radius: 15px;
+    height: 15px;   
+    margin-right: 10px; 
+}
+
+.text{
+    color: grey;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.action-btn{
+    background-color: #FE5E35;
+    border: 10px solid #FE5E35;
+    border-radius: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.right-section{
+    position: relative;
+}
+
+.headphone-div{
+    position: relative;
+    top: 150px;
+}
+
+.headphone-div > img:nth-child(1){
+    position: relative;
+    height: 100px;
+    top: 100px;
+    margin-left: 20px;
+    z-index: 0;
+}
+.headphone-div > img:nth-child(3){
+    position: relative;
+    margin-top: -320px;
+    height: 350px;
+    z-index: -1;
+    margin-left: 50px;
+    margin-right: 180px;
+}
+
+.discount-content{
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+    bottom: 10px;
+}
+.discount-content>h4{
+    position: relative;
+    font-size: 12px;
+    top: 10px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.discount-content > h1{
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+    top: 20px;
+}
+
+.dots{
+    position: relative;
+    top:170px;
+    margin-left: 160px;
+    display: flex;
+}
+
+.dot{
+    /* width: 20px; */
+    margin-left: 20px;
+    height: 15px;
+    width: 15px;
+}
+
+.yellow-dot{
+    background-color: rgb(248, 232, 6);
+    border: 10px solid #fff;
+    border-style: inherit;
+    border-radius: 10px;
+}
+
+.tomato-dot{
+    background-color: rgb(255, 0, 0);
+    border: 10px solid #fff;
+    border-style: inherit;
+    border-radius: 10px;
+}
+
+.black-dot{
+    background-color: rgb(68, 67, 50);
+    border: 10px solid #fff;
+    border-style: inherit;
+    border-radius: 10px;
+}
+
+.right-section .action-btn{
+    position: relative;
+    top: 200px;
+    background-color: #FE5E35;
+    border: 10px solid #FE5E35;
+    border-radius: 20px;
+    color: #fff;
+    margin-left: 170px;
+}
